@@ -1,12 +1,9 @@
 ---
 layout: index
-title: Jekyll Bootstrap3
-tagline: Material design for Github-pages
+title: A Thousand Dollar Truffle
+tagline: Don’t wait to lose weight
 ---
 {% include JB/setup %}
-
-
-<!-- Change the "about information" contained in /_includes/themes/bootstrap/index.html  -->
 
   {% for post in site.posts %}
 
@@ -18,12 +15,11 @@ tagline: Material design for Github-pages
                     Tagged under: {{post.tags | array_to_sentence_string}}
                 </p>
                 <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date_to_string }}</p>
-                <!-- <hr>
-                <img class="img-responsive" src="http://placehold.it/900x300" alt=""> -->
+               <hr>
+                <img class="img-responsive" src="http://lorempixel.com/900/300/" alt=""> 
                 <hr>
 		{{ post.excerpt }}                
                 <a class="btn btn-primary" href="{{ BASE_PATH }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
-
                 <hr>
 
   {% endfor %}
