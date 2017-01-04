@@ -5,6 +5,7 @@ tags:
 - Weight Loss
 ---
 ![Welcome](/assets/images/Slimming.png)
+
 ## Welcome to our Slimming World Blog
 
 So it has finally happened, After 6 months of persuasion I have decided to join Nikki at Slimming World.
